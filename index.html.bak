@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<title>practise
+</title>
+<!-- <link rel="stylesheet" href="./assets/css/style.css"> </link> -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body>
+
+<h1 class="alert alert-info bg-dark text-white text-center text-uppercase"> table  </h1>
+<table class="table table-bordered text-white bg-info text-uppercase"> 
+<thead>
+<th> sr no </th>
+<th> fname </th>
+<th>  lname</th>
+<th> marks</th>
+<tbody id="markList"> 
+
+</tbody>
+
+ </thead>
+</table>
+<script src="./assets/js/app.js"> </script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+cl = console.log;
+
+
+var student =[{
+	fname : "sachin",
+	lname : "tendulkar",
+	marks : 52,
+},
+{
+	fname : "vikas",
+	lname : "gill",
+	marks : 75,
+},
+{
+	fname : "tushar",
+	lname : "patil",
+	marks : 95,
+},
+{
+	fname : "subhash",
+	lname : "modi",
+	marks : 45,
+},
+{
+	fname : "kiran",
+	lname : "dixit",
+	marks : 84,
+},
+
+];
+
+var markList = document.getElementById("markList");
+cl(markList);
+
+var result = ``;
+
+student.forEach(function(std,i){
+	result += `
+	
+	        <tr> 
+			<th> ${ i + 1} </th>
+			<th> ${std.fname} </th>
+			<th> ${std.lname} </th>
+			<th> ${ std.marks} </th>
+			
+			
+			</tr>
+	
+	`});
+
+
+markList.innerHTML = result;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// alert("hello");
+
+
+for(i = 0; i < 20 ; i++){
+	if (i % 2 === 0){
+cl(i)
+	}
+}
+
+var str01 = "hello world ,this is power, power";
+
+var str02 = str01.replace(/power/gi, "knowledge");
+cl(str02);
+
+var str03 = (str01.toUpperCase());
+cl(str03);
+
+cl(str01.charAt(3));
+
+
+for (i = 0; i<=100; i++){
+	if(i % 2 ===0){
+		cl("sum no" + i);
+		
+		document.write("<br>");
+		document.write(i);
+	}
+};
+
+var str02 = str01.slice(13,17);
+cl(str02);
+
+var array01 = str01.split(" ");
+cl(array01);  // convert string into array
+
+ var array04 = array01.join(" ");
+ cl(array04); // convert array into string
+ 
+ var name = ['sachin','rohit','anil','virat','anushka','sara',];
+ cl(name);
+ 
+
+ // name.push('dhoni');
+ // cl(name);
+ 
+ 
+ var list = ['html','css','js','angular','typescript',];
+ 
+ cl(list);
+ 
+ list.splice(2,3);
+ cl(list); // delete the element 
+ 
+ var relist = ['html','css','js','angular','typescript',];
+ 
+ relist.reverse();
+ cl(relist);
+ 
+ relist.sort();
+ cl(relist);
