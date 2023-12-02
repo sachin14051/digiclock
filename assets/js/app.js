@@ -16,7 +16,7 @@ cl(dmin);
 let dsec = d.getSeconds()
 cl(dsec);
 
-let session = "PM";
+let session = "AM";
 cl(session);
 
 if(dhr >= 12){
