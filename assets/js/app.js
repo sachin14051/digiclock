@@ -36,7 +36,7 @@ dsec =  "0" + dsec
 }
 
 
-result = `${dhr} : ${dmin} : ${dsec}  : ${session}`
+result = `${dhr} : ${dmin} : ${dsec}  `
 
  
 
