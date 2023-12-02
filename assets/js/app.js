@@ -20,7 +20,7 @@ let session = "PM";
 cl(session);
 
 if(dhr >= 12){
-session =  "PM"
+session =  "AM"
 }
 if(dhr>12){
 	dhr= dhr-12
